@@ -102,9 +102,8 @@ color:#1e2a22;
 progress{
      background-color: #167264;
      color:#167264 !important;
-  
-    margin: 0px auto 6px 10px;;
-    width:450px ;
+      margin: 0px auto 6px 10px;;
+        width:450px ;
   
    
 }
@@ -180,3 +179,46 @@ button:hover{
     color: #7be4d1;
     
 }
+@media only screen and (max-width: 1414px) {
+    progress{
+      
+         margin: 0px auto 6px 10px;;
+           width:300px ;
+     
+      
+   } 
+
+   @media only screen and (max-width: 1000px) {
+    progress{
+      
+        
+           width:200px ;
+     
+      
+   } 
+   
+  }
+  @media only screen and (max-width: 700px) {
+ 
+      
+        
+        .main{
+    
+            display: grid;
+            grid-template-columns: 1fr ;
+            gap: 10px;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+        }
+
+     
+      
+   } 
+   
+  }
+
