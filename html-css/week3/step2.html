@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="main-step2">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Marwan</h2>
+            </div>
+            <div class="menu">
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">SignUp</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="srch" class="srch" placeholder="Type to text">
+                <a href="#">
+                    <button class="btn">Search</button>
+                </a>
+            </div>
+        </div>
+        <!-- ------------------------------------ -->
+        <div class="signup">
+
+            <div class="progress1">
+                <!-- *********** -->
+                <!-- <progress class="prog" value="20" max="100"></progress> -->
+
+
+                <section class="step-wizard">
+                    <h1 class="title t1">Sign up to yourcustomtailor.com</h1>
+
+
+                    <ul class="step-wizard-list">
+
+                        <li class="step-wizard-item mar4">
+
+
+                            <span>Personal Info</span>
+                        </li>
+                        <li class="step-wizard-item ">
+
+                            <a class="anchor2">Contact Info</a>
+                        </li>
+                        <li class="step-wizard-item mar4">
+
+                            <span>your preference</span>
+                        </li>
+                        <li class="step-wizard-item mar4">
+
+                            <span>Success</span>
+                        </li>
+
+                    </ul>
+
+
+                </section>
+
+                <!-- ************ -->
+
+
+            </div>
+            <progress class="prog" value="50" max="100"></progress>
+            <!-- *************** -->
+            <div class="content">
+                <form action="#">
+                    <div class=" input-area ">
+                        <div class="name">
+                            <p>
+
+                                We will probably need to stay in touch somehow. Let is know how we can reach you?</p>
+                            <div class=" step2-e">
+                                <label for="n1"> Email* </label>
+                                <input type="Email" placeholder="Enter your Email" required id="n1" pattern="[^ @]*@[^ @]*" ">
+                            </div>
+                            <div class="step2-e ">
+                                <label for="n2 ">Phone*</label>
+                                <input type="tel " placeholder="Enter your Phone "  id="n2 " pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4} ">
+                            </div>
+
+                            <div class="step2-e ">
+                                <label for="b ">Password*</label>
+                                <input type="password " placeholder="Enter your Password " required id="b " pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$ ">
+                            </div>
+                            <div class="step2-e ">
+                                <label for="e ">Re-enter Password*</label>
+                                <input type="text " placeholder="Enter your Password " required id="e " pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$ ">
+
+                            </div>
+                        </div>
+
+                        <hr>
+
+
+                        <p>I want to sign up for the newsletter</p>
+                        <div class="news ">
+                            <label for="r1 ">Weekly news</label>
+                            <input type="radio " name="news " id="r1 " checked required>
+                            <label for="r2 ">Monthly news</label>
+                            <input type="radio " name="news " id="r2 ">
+                            <label for="r3 ">Don't send me news</label>
+                            <input type="radio " name="news " id="r3 ">
+                        </div>
+
+
+                        <input class="next " type="button " onclick="location.href='step3.html' ; " value="Next Step " />
+
+
+
+
+
+                    </div>
+
+
+            </div>
+
+            </form>
+
+
+        </div>
+
+
+
+        </div>
+
+
+
+    </main>
+
+</body>
+
+</html>
