@@ -339,9 +339,10 @@
                                     font-size: 18px;
                                     color: #030202cd;
                                     cursor: pointer;
+                                  text-align: center;
                                 }
-                                /* @media only screen and (min-width: 390px) { */
-                                /* .nav-menu {
+/* @media only screen and (min-width: 390px) { */
+ /* .nav-menu {
         display: flex;
         flex-direction: column;
         height: 50vh;
